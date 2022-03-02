@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+body{
+    background-color: #ffcb9ade;
+
+}
+
+img, h1{
+    display: inline-block;
+}
+
+#principal{
+    font-family: 'Roboto Serif', sans-serif;
+    font-size: 3em;
+    text-align: justify;
+}
+
+div.história, div.origem{
+    background-color: white;
+    text-align: justify;
+    border: 1px solid black;
+    height: 100px;
+    width: fit-content;
+}
+
+div.c1, div.c2{
+    display: inline-table;
+}

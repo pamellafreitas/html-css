@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML</title>
+    
+</head>
+<body>
+    <h1>Imagem flexivel</h1>
+    <p>Diminua e aumente a xota dela e tenha uma imagem flexivel.</p>
+    <picture>
+        <source media="(max-width:850px )" srcset="imagens/pamzinha01.jpg" type="image/jpg">
+        <source media="(max-width:1050px )" srcset="imagens/pamzinha02.jpg" type="image/jpg">
+       <img src="imagens/pamzinha03.jpg" alt="pam foto">
+    </picture>
+
+    <h1>Reproduzindo áudios</h1>
+    <P>Vamos aprender a reproduzir áudio em HTML5!</P>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/Smoke Jacket Blues - TrackTribe.mp3" type="audio/mpeg">
+        <p>Infelizmente seu navegador não abre o audio, baixe aqui <a href="midia/Smoke Jacket Blues - TrackTribe.mp3">clique para baixar</a></p>
+    
+    </audio>
+    
+</body>
+</html>
